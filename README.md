@@ -95,7 +95,7 @@
     
 <img src="https://user-images.githubusercontent.com/71730134/148957552-e60e9334-b04f-4d95-be16-d572f88ab176.png" align="center" >
 
-Visualiando a imagem acima podemos notar alguns campos "inputs", tais campos foram desenvolvidos baseado na documentação do SAP Ui5.
+Visualizando a imagem acima podemos notar alguns campos "inputs", os campos foram desenvolvidos baseado na documentação do SAP Ui5.
 
 - Criando novo contato
 
