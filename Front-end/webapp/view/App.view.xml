@@ -1,0 +1,69 @@
+<mvc:View
+
+   controllerName="sap.ui.demo.walkthrough.controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc"
+   displayBlock="true">
+   <Shell>
+      <App class="myAppDemoWT">
+         <pages>
+            <Page title="{i18n>TitlePage}">
+               <content>                                       
+                  <Input
+                  value="{/recipient/find}"
+                     width="auto"/>                     
+                     <Button
+                        text="Search"
+                        press="findByPhone"                        
+                        />
+                        <Button
+                        text="Delete"
+                        press="deleteContact"                        
+                        />
+                           <Panel
+                              headerText="{i18n>SubTitle}"
+                              class="sapUiResponsiveMargin"
+                              width="auto"
+                           >
+                                 <content>   
+                                     <Input
+                                     value="{/recipient/name}"
+                                     description="Name"
+                                     width="50%"
+                                     class="sapUiSmallMargin"                                    
+                                      />                                                                      
+                                     <Input
+                                     value="{/recipient/phone}"
+                                     description="Phone"
+                                     width="50%"
+                                     class="sapUiSmallMargin"
+                                      />
+                                     <Input
+                                     value="{/recipient/address}"
+                                     description="Address"
+                                     width="50%"
+                                     class="sapUiSmallMargin"
+                                      />                   
+                                     <Input
+                                     value="{/recipient/city}"
+                                     description="City"         
+                                     width="50%"                                           
+                                     class="sapUiSmallMargin"
+                                      />                                   
+                                    
+                                 </content>               
+                           </Panel>  
+                     <Button
+                     id="helloDialogButton"
+                     text="{i18n>openDialogButtonText}"
+                     press="saveContact"
+                     class="sapUiSmallMargin"
+                     width="20%"/>  
+                          
+               </content>
+             </Page>
+          </pages>
+       </App>
+   </Shell>
+
+</mvc:View>

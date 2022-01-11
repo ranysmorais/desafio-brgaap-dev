@@ -1,0 +1,33 @@
+<c:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:c="sap.ui.core"
+>
+<Dialog
+    id="helloDialog"
+    title="Contacts List">
+    <beginButton>
+    
+    <Button
+    text = "{i18n>dialogCloseButtonText}"
+    press="onCloseDialog"/>
+    </beginButton>
+    
+
+    <FormattedText
+	htmlText="Name: {/recipient/msgName}"   
+	class="sapUiSmallMargin"/>
+
+    <FormattedText
+	htmlText="Phone: {/recipient/phone}"   
+	class="sapUiSmallMargin"/>
+
+    <FormattedText
+	htmlText="Address: {/recipient/address}"   
+	class="sapUiSmallMargin"/>
+
+    <FormattedText
+	htmlText="City: {/recipient/city}"   
+	class="sapUiSmallMargin"/>
+    
+</Dialog>    
+</c:FragmentDefinition>
