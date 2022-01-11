@@ -102,8 +102,8 @@ sap.ui.define([
             contentType: 'application/json',
             data: JSON.stringify(data),
             success: function (data, textStatus, xhr) {
-               alert("Sucess");
-               console.log("sukses: " + data + " " + JSON.stringify(xhr));
+               alert("Create: Success");
+              
             }
          });
       },
@@ -111,20 +111,21 @@ sap.ui.define([
          var phone = this.getView().getModel().getProperty("/recipient/find");
          
          var sUrl = `https://localhost:44339/v1/contacts/delete-contact/${phone}`;
-
+	
          $.ajax({
             url: sUrl,
             type: "DELETE",            
             contentType: "application/json",
             dataType: "text",
             sucess: function (data, textStatus, jqXHR) {
-               alert("DELETE: Sucess");
+               
             },
             error: function (data, textStatus, jqXHR) {
                //Caso ocorra um erro ao solicitar dados a função error será chamada                    
                console.log(textStatus);
             }
          });
+	         alert("Delete: Success");
       },
       findByPhone: function () {
          var phone = this.getView().getModel().getProperty("/recipient/find");

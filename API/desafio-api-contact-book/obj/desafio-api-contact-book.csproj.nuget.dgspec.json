@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Teste\\Desktop\\project-sapui5\\api-brgaap-desafio\\desafio-api-contact-book\\desafio-api-contact-book.csproj": {}
+    "C:\\Users\\Teste\\Desktop\\desafio-brgaap-dev\\API\\desafio-api-contact-book\\desafio-api-contact-book.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Teste\\Desktop\\project-sapui5\\api-brgaap-desafio\\desafio-api-contact-book\\desafio-api-contact-book.csproj": {
+    "C:\\Users\\Teste\\Desktop\\desafio-brgaap-dev\\API\\desafio-api-contact-book\\desafio-api-contact-book.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Teste\\Desktop\\project-sapui5\\api-brgaap-desafio\\desafio-api-contact-book\\desafio-api-contact-book.csproj",
+        "projectUniqueName": "C:\\Users\\Teste\\Desktop\\desafio-brgaap-dev\\API\\desafio-api-contact-book\\desafio-api-contact-book.csproj",
         "projectName": "desafio-api-contact-book",
-        "projectPath": "C:\\Users\\Teste\\Desktop\\project-sapui5\\api-brgaap-desafio\\desafio-api-contact-book\\desafio-api-contact-book.csproj",
+        "projectPath": "C:\\Users\\Teste\\Desktop\\desafio-brgaap-dev\\API\\desafio-api-contact-book\\desafio-api-contact-book.csproj",
         "packagesPath": "C:\\Users\\Teste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Teste\\Desktop\\project-sapui5\\api-brgaap-desafio\\desafio-api-contact-book\\obj\\",
+        "outputPath": "C:\\Users\\Teste\\Desktop\\desafio-brgaap-dev\\API\\desafio-api-contact-book\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

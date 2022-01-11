@@ -42,9 +42,17 @@ namespace desafio_api_contact_book.Controllers
         [HttpGet("get-contact/{phone}")]
         public async Task<ActionResult<People>> GetByPhone(string phone, [FromServices] DataContext context )
         {
-
-            var peoples = await context.peoples.ToListAsync();
-            return peoples.Find(x => x.phone == phone);
+            try
+            {
+                var aPhone = long.Parse(phone);
+                var peoples = await context.peoples.ToListAsync();
+                return peoples.Find(x => x.phone == phone);
+            }
+            catch (FormatException ex)
+            {
+                throw ex;
+            }
+            
 
         }
 
@@ -62,10 +70,18 @@ namespace desafio_api_contact_book.Controllers
         public async void DeleteByPhone(string phone,[FromServices] DataContext context)
         {
 
-            var p = await context.peoples.ToListAsync();
+            try
+            {
+                var aPhone = long.Parse(phone);
+                var p = await context.peoples.ToListAsync();
+                context.peoples.Remove(p.Find(x => x.phone == phone));
+                await context.SaveChangesAsync();
 
-            context.peoples.Remove(p.Find(x => x.phone == phone));
-            await context.SaveChangesAsync();
+            }catch(FormatException ex)
+            {
+                throw ex;
+            }
+            
         }
 
 

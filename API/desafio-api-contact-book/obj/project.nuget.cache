@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pIaj17aZM5F6ZHKsoPRK/CT3nBH8npupOU5N1AxG5vpIDnpLIe//bXg4NF175O++c9wi7IgaGFu4G2Rh2avl5Q==",
+  "dgSpecHash": "sbZ3IO8XN4Sd4EC1Y6EZU6jfGlW0VWLh/3HilTHsGUW7Ij0SX765orlmJv55yO8dAFkmNlDVb9xp/yKaF1+Wbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Teste\\Desktop\\project-sapui5\\api-brgaap-desafio\\desafio-api-contact-book\\desafio-api-contact-book.csproj",
+  "projectFilePath": "C:\\Users\\Teste\\Desktop\\desafio-brgaap-dev\\API\\desafio-api-contact-book\\desafio-api-contact-book.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Teste\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\Teste\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
